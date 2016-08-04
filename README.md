@@ -1,1 +1,4 @@
-# desktop_reminders
+# Desktop Reminders
+## A Simple Commandline Interface for creating alerts
+
+To use Desktop Reminders, you can either add the folder to PATH or navigate to the folder and open commandline. If you are in the directory of the files and you have python installed on your computer, you can type "python add_reminders.py -d (date (YYYY-mm-dd)) -t (time (HH:MM)) -m (message)". If you do not set the parameters, they are automatically set to today's date, 15 minutes from when you run the script, and "Reminder" as your message. Then, make sure check_reminders.pyw is running in the background, and you will be reminded when the time comes. check_reminders.pyw only checks every 50 seconds, so it uses a very small amount of processing power.
